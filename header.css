@@ -1,0 +1,93 @@
+
+.header-flex{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    cursor: pointer;
+}
+
+.container2{
+    background: radial-gradient(circle at right, purple, red, orange);
+    border-radius: 50%;
+    padding: 2px;
+}
+
+/* Define the image inside the container */
+.container img {
+    display: block;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Style for the name */
+.container .name {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 12px;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+
+.flex-box1{
+    display: flex;
+    justify-content: space-between;
+    width: 290px;
+    align-items: center;
+}
+
+.flex-box2{
+    display: flex;
+    gap:10px;
+}
+
+.switch-button{
+    border: none;
+    background-color: white;
+    color:rgb(98, 168, 225);
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.switch-button:hover{
+    color: rgb(5, 104, 210);;
+}
+
+
+.header-main-extra-flex-box{
+    display: flex;
+    gap:80px;
+}
+
+.other-information{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+.name-dis{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgb(145, 144, 144);
+}
+
+.name-box{
+    margin-top: 6px;
+}
+
+#first-box{
+    margin-bottom: 10px;
+}

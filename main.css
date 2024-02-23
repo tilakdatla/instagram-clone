@@ -1,0 +1,118 @@
+
+.page-icon-div{
+    display: inline-block;
+    background: radial-gradient(circle at right, purple,red,orange);
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.page-icon-div>img{
+    height: 30px;
+    width: 30px;
+    display: block;
+    border-radius: 50%;
+  }
+
+.page-name-content{
+    display: flex;
+    align-items: center;
+    gap:8px;
+}
+
+.page-name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.page-content{
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    row-gap:8px;
+    
+}
+
+.page-content .cis-post-img>img{
+    height: 550px;
+    width: 480px;
+    border: solid 1px lightgrey;
+    
+}
+
+.like-buttons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.like-buttons-content{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.bi:hover{
+   background-color: rgb(255, 255, 255);
+}
+
+.main-flex-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 620px;
+    gap:20px;
+}
+
+.like-content{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.comment-class{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hastage{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(145, 144, 144);
+}
+
+span{
+    color: rgb(145, 144, 144);
+}
+
+
+#add_comment{
+    padding-bottom: 23px;
+}
+
+.see_all{
+    cursor: pointer;
+}
+
+.see_all:hover{
+  color: rgb(136, 134, 134);
+}
+
+
+.cis-post-img{
+    cursor: pointer;
+}
+
+
+.like-button:hover{
+    opacity: 0.6;
+}
+
+#like-button{
+    cursor: pointer;
+}
+
+#like-button:hover{
+    opacity:0.6;
+}
